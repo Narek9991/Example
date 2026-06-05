@@ -5,141 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, sans-serif;
-        }
-/*changejjkol*/
-
-        body{
-            background:#f4f4f4;
-        }
-
-        /* MENU */
-        nav{
-            background:#1e293b;
-            color:white;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            padding:20px 10%;
-        }
-
-        .logo{
-            font-size:24px;
-            font-weight:bold;
-        }
-
-        .menu{
-            display:flex;
-            list-style:none;
-            gap:30px;
-        }
-
-        .menu a{
-            color:white;
-            text-decoration:none;
-            transition:.3s;
-        }
-
-        .menu a:hover{
-            color:#38bdf8;
-        }
-
-        /* SLIDE SECTION */
-        .hero{
-            height:80vh;
-            background:linear-gradient(rgba(0,0,0,.5),
-            rgba(0,0,0,.5)),
-            url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200')
-            center/cover;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            text-align:center;
-            color:white;
-        }
-
-        .hero-content h1{
-            font-size:55px;
-            margin-bottom:20px;
-        }
-
-        .hero-content p{
-            font-size:20px;
-            margin-bottom:25px;
-        }
-
-        .btn{
-            display:inline-block;
-            background:#38bdf8;
-            color:white;
-            padding:12px 25px;
-            border-radius:5px;
-            text-decoration:none;
-        }
-
-        /* SECTIONS */
-        section{
-            padding:80px 10%;
-        }
-
-        .section-title{
-            text-align:center;
-            margin-bottom:40px;
-            color:#1e293b;
-        }
-
-        .cards{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-            gap:20px;
-        }
-
-        .card{
-            background:white;
-            padding:25px;
-            border-radius:10px;
-            box-shadow:0 4px 10px rgba(0,0,0,.1);
-        }
-
-        .card h3{
-            margin-bottom:15px;
-            color:#0f172a;
-        }
-
-        /* FOOTER */
-        footer{
-            background:#1e293b;
-            color:white;
-            text-align:center;
-            padding:30px;
-        }
-
-        footer p{
-            margin:8px 0;
-        }
-
-        @media(max-width:768px){
-            nav{
-                flex-direction:column;
-                gap:15px;
-            }
-
-            .menu{
-                flex-wrap:wrap;
-                justify-content:center;
-            }
-
-            .hero-content h1{
-                font-size:36px;
-            }
-        }
-    </style>
+    
 </head>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
     <!-- MENU -->
@@ -147,10 +19,10 @@
         <div class="logo">MySite</div>
 
         <ul class="menu">
-            <li><a href="#home">Գլխավոր</a></li>
-            <li><a href="#about">Մեր մասին</a></li>
-            <li><a href="#services">Ծառայություններ</a></li>
-            <li><a href="#contact">Կապ</a></li>
+            <li><a href="index.html">Գլխավոր</a></li>
+            <li><a href="about.html">Մեր մասին</a></li>
+            <li><a href="services.html">Ծառայություններ</a></li>
+            <li><a href="contact.html">Կապ</a></li>
         </ul>
     </nav>
 
@@ -159,12 +31,12 @@
         <div class="hero-content">
             <h1>Բարի Գալուստ</h1>
             <p>Ժամանակակից և գեղեցիկ վեբ կայք</p>
-            <a href="#about" class="btn">Իմանալ ավելին</a>
+            <li><a href="about.html" class="btn">Իմանալ ավելին</a></li>
         </div>
     </div>
 
     <!-- SECTION 1 -->
-    <section id="about">
+   <!-- <section id="about">
         <h2 class="section-title">Մեր Մասին</h2>
 
         <div class="cards">
@@ -183,7 +55,8 @@
                 <p>Մշտական տեխնիկական աջակցություն:</p>
             </div>
         </div>
-    </section>
+    </section> -->
+    
 
     <!-- SECTION 2 -->
     <section id="services">
